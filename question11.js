@@ -62,3 +62,15 @@ function value2(orderID,customer){
 
 }
 const value2function = new value2(ORD-765,"james doe");
+
+value.item.push({
+    productID : "p-005",
+    productname : "monitor",
+    quantity : 1,
+    price : 344993
+});
+
+let value ={
+    orderID : "u78y",
+    customer : [],
+}
