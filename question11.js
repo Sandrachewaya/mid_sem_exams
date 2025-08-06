@@ -74,3 +74,17 @@ let value ={
     orderID : "u78y",
     customer : [],
 }
+
+let valueobj = {
+    orderID : "rty777",
+    customer : {
+        name : "kevin",
+        surname : "gates"
+    }
+
+};
+let jsonString = JSON.stringify(valueObj);
+console.log("JSON String:", jsonString);
+
+let parsedObj = JSON.parse(jsonString);
+console.log("Parsed Object:", parsedObj);
